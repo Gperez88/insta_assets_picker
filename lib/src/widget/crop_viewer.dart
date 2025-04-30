@@ -271,7 +271,7 @@ class _InnerCropViewState extends State<InnerCropView>
               ? Positioned.fill(
                   child: DecoratedBox(
                     decoration: BoxDecoration(
-                      color: widget.theme.cardColor.withValues(alpha: .4),
+                      color: widget.theme.cardColor.withOpacity(.4),
                     ),
                     child: Center(child: buildInitializationError()),
                   ),
